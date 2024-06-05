@@ -1,6 +1,6 @@
 package homework;
 
-public class User{
+public class User implements Savable{
     private final String name;
 
     public User(String name){
@@ -16,7 +16,4 @@ public class User{
         persister.save();
     }
 
-    public void report(){
-        System.out.println("Report for user: " + name);
-    }
 }

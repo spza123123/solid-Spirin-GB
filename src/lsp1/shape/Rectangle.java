@@ -1,6 +1,6 @@
 package lsp1.shape;
 
-public class Rectangle {
+public class Rectangle extends Quadroiteral {
     private int sideA;
     private int sideB;
 
